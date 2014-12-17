@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!-- Title here -->
+		<title>Reserva - KonichiDAW</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="ResponsiveWebInc">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- FlexSlider Css -->
+		<link rel="stylesheet" href="css/flexslider.css" media="screen" />
+		<!-- Portfolio CSS -->
+		<link href="css/prettyPhoto.css" rel="stylesheet">
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">	
+		<!-- Custom Less -->
+		<link href="css/less-style.css" rel="stylesheet">	
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		<!--[if IE]><link rel="stylesheet" href="css/ie-style.css"><![endif]-->
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="#">
+	</head>
+	
+	<body>
+		
+			
+		<!-- Shopping cart Modal -->
+		<div class="modal fade" id="shoppingcart1" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Shopping Cart</h4>
+					</div>
+					<div class="modal-body">
+						<!-- Items table -->
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Quantity</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><a href="#">Exception Reins Evocative</a></td>
+									<td>2</td>
+									<td>$200</td>
+								</tr>
+								<tr>
+									<td><a href="#">Taut Mayoress Alias Appendicitis</a></td>
+									<td>1</td>
+									<td>$190</td>
+								</tr>
+								<tr>
+									<td><a href="#">Sinter et Molests Perfectionist</a></td>
+									<td>4</td>
+									<td>$99</td>
+								</tr>
+								<tr>
+									<th></th>
+									<th>Total</th>
+									<th>$489</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Continue Shopping</button>
+						<button type="button" class="btn btn-info">Checkout</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		<!-- Model End -->
+		
+		<!-- Page Wrapper -->
+		<div class="wrapper">
+		
+			<!-- Header Start -->
+			
+			<div class="header">
+				<div class="container">
+					<!-- Header top area content -->
+					<div class="row">
+						<div class="col-md-4 col-sm-5">
+							<!-- Link -->
+							<a href="index.html">
+								<!-- Logo area -->
+								<div class="logo">
+									<img class="img-responsive" src="img/logo.png" alt="" />
+									<!-- Heading -->
+									<h1>KonichiDAW</h1>
+									<!-- Paragraph -->
+									<p>Comida Asiatica, mas cerca que nunca.</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-8 col-sm-7">
+							<!-- Navigation -->
+							<nav class="navbar navbar-default navbar-right" role="navigation">
+								<div class="container-fluid">
+									<!-- Brand and toggle get grouped for better mobile display -->
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+
+									<!-- Collect the nav links, forms, and other content for toggling -->
+									<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+										<ul class="nav navbar-nav">
+											<li><a href="index.html"><img src="img/nav-menu/nav1.jpg" class="img-responsive" alt="" /> Incio</a></li>
+											<li class="dropdown hidden-xs">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="img/nav-menu/nav2.jpg" class="img-responsive" alt="" /> Carta <b class="caret"></b></a>
+												<ul class="dropdown-menu dropdown-md">
+													<li>
+														<div class="row">
+															<div class="col-md-4 col-sm-6">
+																<!-- Menu Item -->
+																<div class="menu-item">
+																	<!-- Heading -->
+																	<h3>Entrantes</h3>
+																	<!-- Image -->
+																	<img src="img/dish/dish1.jpg" class="img-responsive" alt="" />
+																	<!-- Paragraph -->
+																	<p>Entrantes exoticos de todos los paises de Asia.</p>
+																	<!-- Button -->
+																	<a href="carta.html" class="btn btn-danger btn-xs">Ver Men&uacute;</a>
+																</div>
+															</div>
+															<div class="col-md-4 col-sm-6">
+																<!-- Menu Item -->
+																<div class="menu-item">
+																	<!-- Heading -->
+																	<h3>Platos Principales</h3>
+																	<!-- Image -->
+																	<img src="img/dish/dish2.jpg" class="img-responsive" alt="" />
+																	<!-- Paragraph -->
+																	<p>Los mejores platos de toda Asia.</p>
+																	<!-- Button -->
+																	<a href="carta.html" class="btn btn-danger btn-xs">Ver Men&uacute;</a>
+																</div>
+															</div>
+															<div class="col-md-4">
+																<!-- Menu Item -->
+																<div class="menu-item">
+																	<!-- Heading -->
+																	<h3>Postres</h3>
+																	<!-- Image -->
+																	<img src="img/dish/dish3.jpg" class="img-responsive" alt="" />
+																	<!-- Paragraph -->
+																	<p>Los postres mas exoticos traidos de toda Asia.</p>
+																	<!-- Button -->
+																	<a href="carta.html" class="btn btn-danger btn-xs">Ver Men&uacute;</a>
+																</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</li>
+											<li class="dropdown visible-xs">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"> Carta <b class="caret"></b></a>
+												<ul class="dropdown-menu">
+													<li><a href="carta.html">Entrantes</a></li>
+													<li><a href="carta.html">Platos Principales</a></li>
+													<li><a href="carta.html">Postres</a></li>
+												</ul>
+											</li>
+											<li><a href="galeria.html"><img src="img/nav-menu/nav3.jpg" class="img-responsive" alt="" /> Galeria</a></li>
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="img/nav-menu/nav4.jpg" class="img-responsive" alt="" /> Servicios <b class="caret"></b></a>
+												<ul class="dropdown-menu">
+													<li><a href="reserva.html">Reservar</a></li>
+													<li><a href="contacto.html">Contactanos</a></li>
+                                                    <li><a href="valoranos.html">Valoranos</a></li>
+												</ul>
+											</li>
+											<li><a href="sobre_nosotros.html"><img src="img/nav-menu/nav6.jpg" class="img-responsive" alt="" /> Con&oacute;cenos</a></li>
+										</ul>
+									</div><!-- /.navbar-collapse -->
+								</div><!-- /.container-fluid -->
+							</nav>
+						</div>
+					</div>
+				</div> <!-- / .container -->
+			</div>
+			
+			<!-- Header End -->
+			
+			<!-- Banner Start -->
+			
+			<div class="banner padd">
+				<div class="container">
+					<!-- Image -->
+					<img class="img-responsive" src="img/crown-white.png" alt="" />
+					<!-- Heading -->
+					<h2 class="white">Reserva</h2>
+					<ol class="breadcrumb">
+						<li><a href="index.html">Inicio</a></li>
+						<li class="active">Reserva</li>
+					</ol>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			
+			<!-- Banner End -->
+			
+			
+			
+			<!-- Inner Content -->
+			<div class="inner-page padd">
+			
+				<!-- Booking Start -->
+				
+				<div class="booking">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-7">
+								<!-- Heading -->
+								<h3>KonichiDAW</h3>
+								<!-- Paragraph -->
+								<p>KonichiDAW es un restaurante asi&aacute;tico donde podr&aacute;s disfrutar de la mejor comida del pa&iacute;s.</p>
+								<!-- Image Slider -->
+								<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner">
+										<div class="item active">
+											<img class="img-responsive" src="img/booking/table1.jpg" alt="" />
+										</div>
+										<div class="item">
+											<img class="img-responsive" src="img/booking/table2.jpg" alt="" />
+										</div>
+										<div class="item">
+											<img class="img-responsive" src="img/booking/table3.jpg" alt="" />
+										</div>
+									</div>
+
+									<!-- Controls -->
+									<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+										<span class="fa fa-chevron-left"></span>
+									</a>
+									<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+										<span class="fa fa-chevron-right"></span>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<!-- Booking form area -->
+								<div class="booking-form">
+									<!-- Heading -->
+									<h3>Reserva de Mesa</h3>
+									<!-- Paragraph -->
+									<p>Puedes reservar tu mesa desde nuestro formulario <a href="contacto.html">o bien, llamando por tel&eacute;fono</a>.</p>
+									<!-- Booking form -->
+									<form role="form">
+										<!-- Form label -->
+										<label>Nombre Completo</label>
+										<div class="form-group">
+											<!-- Form input -->
+											<input class="form-control" type="text" placeholder="Nombre" />
+										</div>
+										<!-- Form label -->
+										<label>Email</label>
+										<div class="form-group">
+											<!-- Form input -->
+											<input class="form-control" type="email" placeholder="Email" />
+										</div>
+										<!-- Form label -->
+										<label>Tel&eacute;fono</label>
+										<div class="form-group">
+											<!-- Form input -->
+											<input class="form-control" type="text" placeholder="Telefono" />
+										</div>
+										<!-- Form label -->
+										<label>Tipo de Mesa</label>
+										<div class="form-group">
+											<!-- Form drop down -->
+											<select class="form-control">
+												<option>Individual</option>
+												<option>Doble</option>
+												<option>Familiar (4)</option>
+												<option>Otra (Especificar)</option>
+											</select>
+										</div>
+										<!-- Form label -->
+										<label>Informaci&oacute;n Extra</label>
+										<div class="form-group">
+											<!-- Form text area -->
+											<textarea class="form-control" rows="3" placeholder="Comentarios..."></textarea>
+										</div>
+										<!-- Form button -->
+										<button class="btn btn-danger btn-sm" type="submit" onclick="alert('Reserva Completada \nRecibira un correo con los datos de su mesa \nGracias por su reserva.')">Reservar</button>&nbsp;
+										<button class="btn btn-default btn-sm" type="reset">Reiniciar</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Booking End -->
+				
+			</div><!-- / Inner Page Content End -->	
+			
+			<!-- Footer Start -->
+			
+			<div class="footer padd">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<!-- Footer widget -->
+							<div class="footer-widget">
+								<!-- Logo area -->
+								<div class="logo">
+									<img class="img-responsive" src="img/logo.png" alt="" />
+									<!-- Heading -->
+									<h1>KonichiDAW</h1>
+								</div>
+								<!-- Paragraph -->
+								<p>Nos caracterizamos por tener una comida asi&aacute;tica de calidad.</p>
+								<hr />
+								<!-- Heading -->
+								<h6>Pagos Online</h6>
+								<!-- Images -->
+								<a href="#"><img class="payment img-responsive" src="img/payment/2co.gif" alt="" /></a>
+								<a href="#"><img class="payment img-responsive" src="img/payment/authorizenet.gif" alt="" /></a>
+								<a href="#"><img class="payment img-responsive" src="img/payment/discover.gif" alt="" /></a>
+								<a href="#"><img class="payment img-responsive" src="img/payment/egold.gif" alt="" /></a>
+								<a href="#"><img class="payment img-responsive" src="img/payment/mastercard.gif" alt="" /></a>
+								<a href="#"><img class="payment img-responsive" src="img/payment/paypal.gif" alt="" /></a>
+								<a href="#"><img class="payment img-responsive" src="img/payment/visa.gif" alt="" /></a>
+								<a href="#"><img class="payment img-responsive" src="img/payment/worldpay.gif" alt="" /></a>
+							</div> <!--/ Footer widget end -->
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<!-- Footer widget -->
+							<div class="footer-widget">
+								<!-- Heading -->
+								<h4>Nuestros Mejores Platos</h4>
+								<!-- Images -->
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+								<a href="#"><img class="dish img-responsive" src="img/dish/dish1.jpg" alt="" /></a>
+							</div> <!--/ Footer widget end -->
+						</div>
+						<div class="clearfix visible-sm"></div>
+						<div class="col-md-3 col-sm-6">
+							<!-- Footer widget -->
+							<div class="footer-widget">
+								<!-- Heading -->
+								<h4>Unete a Nosotros.</h4>
+								<!-- Paragraph -->
+								<p>Unete y recibe informacion sobre los ultimos platos y novedades.</p>
+								<!-- Subscribe form -->
+								<form role="form">
+									<div class="form-group">
+										<input class="form-control" type="text" placeholder="Nombre" />
+									</div>
+									<div class="form-group">
+										<input class="form-control" type="email" placeholder="Email" />
+									</div>
+									<button class="btn btn-danger" type="button">Suscribete</button>
+								</form>
+							</div> <!--/ Footer widget end -->
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<!-- Footer widget -->
+							<div class="footer-widget">
+								<!-- Heading -->
+								<h4>Contactanos</h4>
+								<div class="contact-details">
+									<!-- Address / Icon -->
+									<i class="fa fa-map-marker br-red"></i> <span>Calle Panamá, s/n<br />03008 Alacant,<br /> Alicante, España</span>
+									<div class="clearfix"></div>
+									<!-- Contact Number / Icon -->
+									<i class="fa fa-phone br-green"></i> <span>+34 965 93 65 20</span>
+									<div class="clearfix"></div>
+									<!-- Email / Icon -->
+									<i class="fa fa-envelope-o br-lblue"></i> <span><a href="#">konichiDAW@iesmarenostrum.com</a></span>
+									<div class="clearfix"></div>
+								</div>
+								<!-- Social media icon -->
+								<div class="social">
+									<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+									<a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+									<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+									<a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a>
+								</div>
+							</div> <!--/ Footer widget end -->
+						</div>
+					</div>
+					<!-- Copyright -->
+					<div class="footer-copyright">
+						<!-- Paragraph -->
+						<p>&copy; Copyright 2014 <a href="#">KonichiDAW</a></p>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Footer End -->	
+			
+		</div><!-- / Wrapper End -->
+		
+		
+		<!-- Scroll to top -->
+		<span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span> 
+		
+		
+		
+		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Pretty Photo JS -->
+		<script src="js/jquery.prettyPhoto.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="js/html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+		<!-- JS code for this page -->
+		<script>
+		</script>
+	</body>	
+</html>
